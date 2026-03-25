@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-:root{
+:root {
   --color-primary-fixed: #a1d1fe;
   --color-on-primary-fixed: #003351;
   --color-secondary-fixed-dim: #c6d6e8;
@@ -53,53 +53,6 @@
   --color-secondary-container: #d4e4f6;
   --color-on-primary-container: #0a476d;
 
-  @media (prefers-color-scheme: dark) {
-    --color-surface: #0c0e12;
-    --color-on-surface: #e2e2e6;
-    --color-background: #0c0e12;
-    --color-on-background: #e2e2e6;
-    --color-surface-container-lowest: #14181f;
-    --color-surface-container-low: #1c2128;
-    --color-surface-container: #242931;
-    --color-surface-container-high: #2d333b;
-    --color-surface-container-highest: #373d47;
-    --color-surface-bright: #1c2128;
-    --color-surface-dim: #0c0e12;
-    --color-on-surface-variant: #c2c7cf;
-    --color-outline: #8c9199;
-    --color-outline-variant: #42474e;
-    --color-primary: #94cdff;
-    --color-on-primary: #003351;
-    --color-primary-container: #1a5177;
-    --color-on-primary-container: #cce5ff;
-    --color-secondary-container: #3d4955;
-    --color-on-secondary-container: #d4e4f6;
-  }
-
-  /* Manual toggle support */
-  .dark {
-    --color-surface: #0c0e12;
-    --color-on-surface: #e2e2e6;
-    --color-background: #0c0e12;
-    --color-on-background: #e2e2e6;
-    --color-surface-container-lowest: #14181f;
-    --color-surface-container-low: #1c2128;
-    --color-surface-container: #242931;
-    --color-surface-container-high: #2d333b;
-    --color-surface-container-highest: #373d47;
-    --color-surface-bright: #1c2128;
-    --color-surface-dim: #0c0e12;
-    --color-on-surface-variant: #c2c7cf;
-    --color-outline: #8c9199;
-    --color-outline-variant: #42474e;
-    --color-primary: #94cdff;
-    --color-on-primary: #003351;
-    --color-primary-container: #1a5177;
-    --color-on-primary-container: #cce5ff;
-    --color-secondary-container: #3d4955;
-    --color-on-secondary-container: #d4e4f6;
-  }
-
   --font-headline: "Plus Jakarta Sans", "Cairo", sans-serif;
   --font-body: "Plus Jakarta Sans", "Cairo", sans-serif;
   --font-label: "Plus Jakarta Sans", "Cairo", sans-serif;
@@ -109,9 +62,11 @@
   --radius-xl: 3rem;
   --radius-full: 9999px;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 body {
   font-family: "Plus Jakarta Sans", "Cairo", sans-serif;
 }
