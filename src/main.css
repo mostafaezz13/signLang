@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-@theme {
+:root{
   --color-primary-fixed: #a1d1fe;
   --color-on-primary-fixed: #003351;
   --color-secondary-fixed-dim: #c6d6e8;
